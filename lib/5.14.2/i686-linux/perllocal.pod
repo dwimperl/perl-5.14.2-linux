@@ -108,3 +108,113 @@ C<EXE_FILES: >
 
 =back
 
+=head2 Fri Nov 18 16:15:44 2011: C<Module> L<IPC::Run3|IPC::Run3>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.044>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 16:15:46 2011: C<Module> L<Test::Script|Test::Script>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.07>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 16:15:49 2011: C<Module> L<File::Which|File::Which>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.09>
+
+=item *
+
+C<EXE_FILES: script/pwhich>
+
+=back
+
+=head2 Fri Nov 18 16:15:51 2011: C<Module> L<File::HomeDir|File::HomeDir>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.98>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 16:24:45 2011: C<Module> L<CPAN::Reporter|CPAN::Reporter>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.2002>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
