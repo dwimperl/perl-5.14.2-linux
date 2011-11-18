@@ -2990,3 +2990,47 @@ C<EXE_FILES: script/dwimmer_setup.pl script/dwimmer_backup.pl script/dwimmer>
 
 =back
 
+=head2 Fri Nov 18 18:08:45 2011: C<Module> L<local::lib|local::lib>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.008004>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 18:08:47 2011: C<Module> L<App::cpanoutdated|App::cpanoutdated>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.19>
+
+=item *
+
+C<EXE_FILES: bin/cpan-outdated>
+
+=back
+
