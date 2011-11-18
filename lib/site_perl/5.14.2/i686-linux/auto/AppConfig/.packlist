@@ -1,0 +1,14 @@
+/opt/perl5_14_2/lib/site_perl/5.14.2/AppConfig.pm
+/opt/perl5_14_2/lib/site_perl/5.14.2/AppConfig/Args.pm
+/opt/perl5_14_2/lib/site_perl/5.14.2/AppConfig/CGI.pm
+/opt/perl5_14_2/lib/site_perl/5.14.2/AppConfig/File.pm
+/opt/perl5_14_2/lib/site_perl/5.14.2/AppConfig/Getopt.pm
+/opt/perl5_14_2/lib/site_perl/5.14.2/AppConfig/State.pm
+/opt/perl5_14_2/lib/site_perl/5.14.2/AppConfig/Sys.pm
+/opt/perl5_14_2/man/man3/AppConfig.3
+/opt/perl5_14_2/man/man3/AppConfig::Args.3
+/opt/perl5_14_2/man/man3/AppConfig::CGI.3
+/opt/perl5_14_2/man/man3/AppConfig::File.3
+/opt/perl5_14_2/man/man3/AppConfig::Getopt.3
+/opt/perl5_14_2/man/man3/AppConfig::State.3
+/opt/perl5_14_2/man/man3/AppConfig::Sys.3

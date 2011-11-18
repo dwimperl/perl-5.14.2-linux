@@ -1692,3 +1692,1125 @@ C<EXE_FILES: bin/starman>
 
 =back
 
+=head2 Fri Nov 18 17:29:04 2011: C<Module> L<YAML|YAML>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.77>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:29:08 2011: C<Module> L<TimeDate|TimeDate>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.20>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:29:14 2011: C<Module> L<Mail|Mail>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.08>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:29:18 2011: C<Module> L<Email::Valid|Email::Valid>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.185>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:30:35 2011: C<Module> L<Class::Singleton|Class::Singleton>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.4>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:30:49 2011: C<Module> L<DateTime::TimeZone|DateTime::TimeZone>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.42>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:30:52 2011: C<Module> L<Math::Round|Math::Round>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.06>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:31:34 2011: C<Module> L<DateTime::Format::W3CDTF|DateTime::Format::W3CDTF>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.06>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:31:37 2011: C<Module> L<Test::Manifest|Test::Manifest>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.23>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:33:53 2011: C<Module> L<DBI|DBI>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.616>
+
+=item *
+
+C<EXE_FILES: dbiproxy dbiprof dbilogstrip>
+
+=back
+
+=head2 Fri Nov 18 17:33:55 2011: C<Module> L<DBIx::RunSQL|DBIx::RunSQL>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.07>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:34:03 2011: C<Module> L<Email::Date::Format|Email::Date::Format>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.002>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:34:05 2011: C<Module> L<MIME::Lite|MIME::Lite>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 3.028>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:34:18 2011: C<Module> L<Scope::Guard|Scope::Guard>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.20>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:35:22 2011: C<Module> L<DBD::SQLite|DBD::SQLite>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.33>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:35:28 2011: C<Module> L<Data::Dumper::Concise|Data::Dumper::Concise>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.020>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:35:37 2011: C<Module> L<Config::Any|Config::Any>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.23>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:35:48 2011: C<Module> L<Test::use::ok|Test::use::ok>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.02>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:35:50 2011: C<Module> L<Context::Preserve|Context::Preserve>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:36:04 2011: C<Module> L<Class::XSAccessor|Class::XSAccessor>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.12>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:36:07 2011: C<Module> L<Class::Accessor::Grouped|Class::Accessor::Grouped>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.10003>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:36:16 2011: C<Module> L<Getopt::Long::Descriptive|Getopt::Long::Descriptive>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.090>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:36:23 2011: C<Module> L<Clone|Clone>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.31>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:36:25 2011: C<Module> L<Hash::Merge|Hash::Merge>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.12>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:36:32 2011: C<Module> L<Tree::DAG_Node|Tree::DAG_Node>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.06>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:36:44 2011: C<Module> L<Test::Warn|Test::Warn>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.23>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:36:52 2011: C<Module> L<SQL::Abstract|SQL::Abstract>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.72>
+
+=item *
+
+C<EXE_FILES: script/format-sql>
+
+=back
+
+=head2 Fri Nov 18 17:37:03 2011: C<Module> L<Class::Accessor|Class::Accessor>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.34>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:37:23 2011: C<Module> L<Variable::Magic|Variable::Magic>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.47>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:37:24 2011: C<Module> L<B::Hooks::EndOfScope|B::Hooks::EndOfScope>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.09>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:37:28 2011: C<Module> L<namespace::clean|namespace::clean>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.21>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:37:40 2011: C<Module> L<Number::Compare|Number::Compare>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.03>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:37:42 2011: C<Module> L<File::Find::Rule|File::Find::Rule>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.33>
+
+=item *
+
+C<EXE_FILES: findrule>
+
+=back
+
+=head2 Fri Nov 18 17:37:45 2011: C<Module> L<Data::Compare|Data::Compare>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.22>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:37:53 2011: C<Module> L<Class::C3|Class::C3>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.23>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:37:55 2011: C<Module> L<Class::C3::Componentised|Class::C3::Componentised>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.001000>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:38:04 2011: C<Module> L<Module::Find|Module::Find>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.10>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:41:28 2011: C<Module> L<DBIx::Class|DBIx::Class>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.08195>
+
+=item *
+
+C<EXE_FILES: script/dbicadmin>
+
+=back
+
+=head2 Fri Nov 18 17:41:40 2011: C<Module> L<File::Slurp|File::Slurp>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 9999.19>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:41:56 2011: C<Module> L<Feed::Find|Feed::Find>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.07>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:42:31 2011: C<Module> L<URI::Fetch|URI::Fetch>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.09>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:42:40 2011: C<Module> L<Class::Data::Inheritable|Class::Data::Inheritable>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.08>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:42:57 2011: C<Module> L<Digest::SHA1|Digest::SHA1>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.13>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:43:39 2011: C<Module> L<AppConfig|AppConfig>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.66>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:44:11 2011: C<Module> L<Template|Template>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.22>
+
+=item *
+
+C<EXE_FILES: bin/tpage bin/ttree>
+
+=back
+
+=head2 Fri Nov 18 17:44:32 2011: C<Module> L<Carp::Assert|Carp::Assert>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.20>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:44:36 2011: C<Module> L<Carp::Assert::More|Carp::Assert::More>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.12>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:44:40 2011: C<Module> L<Test::LongString|Test::LongString>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.15>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:44:48 2011: C<Module> L<HTML::Form|HTML::Form>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 6.00>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 17:45:57 2011: C<Module> L<WWW::Mechanize|WWW::Mechanize>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.70>
+
+=item *
+
+C<EXE_FILES: bin/mech-dump>
+
+=back
+
+=head2 Fri Nov 18 17:46:09 2011: C<Module> L<Test::WWW::Mechanize|Test::WWW::Mechanize>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.38>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
