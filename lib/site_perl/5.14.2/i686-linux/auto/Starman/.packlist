@@ -1,0 +1,8 @@
+/opt/perl5_14_2/bin/starman
+/opt/perl5_14_2/lib/site_perl/5.14.2/HTTP/Server/PSGI/Net/Server/PreFork.pm
+/opt/perl5_14_2/lib/site_perl/5.14.2/Plack/Handler/Starman.pm
+/opt/perl5_14_2/lib/site_perl/5.14.2/Starman.pm
+/opt/perl5_14_2/lib/site_perl/5.14.2/Starman/Server.pm
+/opt/perl5_14_2/man/man1/starman.1
+/opt/perl5_14_2/man/man3/Plack::Handler::Starman.3
+/opt/perl5_14_2/man/man3/Starman.3
