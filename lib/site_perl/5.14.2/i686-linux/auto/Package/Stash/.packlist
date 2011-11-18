@@ -1,0 +1,6 @@
+/opt/perl5_14_2/bin/package-stash-conflicts
+/opt/perl5_14_2/lib/site_perl/5.14.2/Package/Stash.pm
+/opt/perl5_14_2/lib/site_perl/5.14.2/Package/Stash/Conflicts.pm
+/opt/perl5_14_2/lib/site_perl/5.14.2/Package/Stash/PP.pm
+/opt/perl5_14_2/man/man3/Package::Stash.3
+/opt/perl5_14_2/man/man3/Package::Stash::PP.3
