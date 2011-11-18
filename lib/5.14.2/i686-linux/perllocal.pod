@@ -218,3 +218,685 @@ C<EXE_FILES: >
 
 =back
 
+=head2 Fri Nov 18 16:27:28 2011: C<Module> L<URI|URI>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.59>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 16:27:42 2011: C<Module> L<CPAN::DistnameInfo|CPAN::DistnameInfo>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.12>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 16:27:54 2011: C<Module> L<Params::Util|Params::Util>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.04>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 16:27:57 2011: C<Module> L<Sub::Install|Sub::Install>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.925>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 16:27:58 2011: C<Module> L<Data::OptList|Data::OptList>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.107>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 16:28:01 2011: C<Module> L<Sub::Exporter|Sub::Exporter>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.982>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 16:28:06 2011: C<Module> L<Data::UUID|Data::UUID>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.217>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 16:28:08 2011: C<Module> L<Data::GUID|Data::GUID>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.046>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 16:28:39 2011: C<Module> L<common::sense|common::sense>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 3.4>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 16:28:51 2011: C<Module> L<JSON::XS|JSON::XS>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.32>
+
+=item *
+
+C<EXE_FILES: bin/json_xs>
+
+=back
+
+=head2 Fri Nov 18 16:29:01 2011: C<Module> L<JSON|JSON>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.53>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 16:29:06 2011: C<Module> L<Metabase::Fact|Metabase::Fact>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.020>
+
+=item *
+
+C<EXE_FILES: bin/metabase-profile>
+
+=back
+
+=head2 Fri Nov 18 16:29:10 2011: C<Module> L<LWP::MediaTypes|LWP::MediaTypes>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 6.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 16:29:12 2011: C<Module> L<Encode::Locale|Encode::Locale>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.02>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 16:29:14 2011: C<Module> L<HTTP::Date|HTTP::Date>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 6.00>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 16:29:52 2011: C<Module> L<HTML::Tagset|HTML::Tagset>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 3.20>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 16:30:00 2011: C<Module> L<HTML::Parser|HTML::Parser>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 3.69>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 16:30:03 2011: C<Module> L<HTTP::Message|HTTP::Message>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 6.02>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 16:34:09 2011: C<Module> L<File::Listing|File::Listing>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 6.03>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 16:34:11 2011: C<Module> L<HTTP::Negotiate|HTTP::Negotiate>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 6.00>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 16:34:17 2011: C<Module> L<HTTP::Daemon|HTTP::Daemon>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 6.00>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 16:34:19 2011: C<Module> L<Net::HTTP|Net::HTTP>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 6.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 16:34:21 2011: C<Module> L<HTTP::Cookies|HTTP::Cookies>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 6.00>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 16:34:28 2011: C<Module> L<WWW::RobotRules|WWW::RobotRules>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 6.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 16:34:45 2011: C<Module> L<LWP|LWP>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 6.03>
+
+=item *
+
+C<EXE_FILES: bin/lwp-request bin/lwp-mirror bin/lwp-download bin/lwp-dump>
+
+=back
+
+=head2 Fri Nov 18 16:34:46 2011: C<Module> L<Metabase::Client::Simple|Metabase::Client::Simple>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.008>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 16:34:51 2011: C<Module> L<CPAN::Testers::Report|CPAN::Testers::Report>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.999001>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 16:35:06 2011: C<Module> L<Test::Tester|Test::Tester>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.107>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 16:35:08 2011: C<Module> L<Test::NoWarnings|Test::NoWarnings>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.03>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 16:35:10 2011: C<Module> L<Config::Perl::V|Config::Perl::V>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.14>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Nov 18 16:35:11 2011: C<Module> L<Test::Reporter::Transport::Metabase|Test::Reporter::Transport::Metabase>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.999008>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
