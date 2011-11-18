@@ -124,7 +124,7 @@
 .\" ========================================================================
 .\"
 .IX Title "ExtUtils::MakeMaker 3"
-.TH ExtUtils::MakeMaker 3 "2011-09-26" "perl v5.14.2" "Perl Programmers Reference Guide"
+.TH ExtUtils::MakeMaker 3 "2011-10-24" "perl v5.14.2" "User Contributed Perl Documentation"
 .\" For nroff, turn off justification.  Always turn off hyphenation; it makes
 .\" way too many mistakes in technical documents.
 .if n .ad l
@@ -516,8 +516,8 @@ the first line in the \*(L"=head1 \s-1NAME\s0\*(R" section. \f(CW$2\fR becomes t
 .IP "\s-1AUTHOR\s0" 2
 .IX Item "AUTHOR"
 Array of strings containing name (and email address) of package author(s).
-Is used in \s-1META\s0.yml and \s-1PPD\s0 (Perl Package Description) files for \s-1PPM\s0 (Perl
-Package Manager).
+Is used in \s-1CPAN\s0 Meta files (\s-1META\s0.yml or \s-1META\s0.json) and \s-1PPD\s0
+(Perl Package Description) files for \s-1PPM\s0 (Perl Package Manager).
 .IP "\s-1BINARY_LOCATION\s0" 2
 .IX Item "BINARY_LOCATION"
 Used when creating \s-1PPD\s0 files for binary packages.  It can be set to a
@@ -534,7 +534,8 @@ located in the \f(CW\*(C`x86\*(C'\fR directory relative to the \s-1PPD\s0 itself
 .IX Item "BUILD_REQUIRES"
 A hash of modules that are needed to build your module but not run it.
 .Sp
-This will go into the \f(CW\*(C`build_requires\*(C'\fR field of your \fI\s-1META\s0.yml\fR.
+This will go into the \f(CW\*(C`build_requires\*(C'\fR field of your \s-1CPAN\s0 Meta file.
+(\fI\s-1META\s0.yml\fR or \fI\s-1META\s0.json\fR).
 .Sp
 The format is the same as \s-1PREREQ_PM\s0.
 .IP "C" 2
@@ -576,7 +577,8 @@ be determined by some evaluation method.
 A hash of modules that are required to run Makefile.PL itself, but not
 to run your distribution.
 .Sp
-This will go into the \f(CW\*(C`configure_requires\*(C'\fR field of your \fI\s-1META\s0.yml\fR.
+This will go into the \f(CW\*(C`configure_requires\*(C'\fR field of your \s-1CPAN\s0 Meta file
+(\fI\s-1META\s0.yml\fR or \fI\s-1META\s0.json\fR)
 .Sp
 Defaults to \f(CW\*(C`{ "ExtUtils::MakeMaker" => 0 }\*(C'\fR
 .Sp
@@ -948,7 +950,8 @@ may hold a name for that binary. Defaults to perl
 .IP "\s-1META_MERGE\s0" 2
 .IX Item "META_MERGE"
 .PD
-A hashrefs of items to add to the \fI\s-1META\s0.yml\fR.
+A hashrefs of items to add to the \s-1CPAN\s0 Meta file (\fI\s-1META\s0.yml\fR or
+\&\fI\s-1META\s0.json\fR).
 .Sp
 They differ in how they behave if they have the same key as the
 default metadata.  \s-1META_ADD\s0 will override the default value with its
@@ -990,13 +993,13 @@ Boolean.  Attribute to inhibit descending into subdirectories.
 .IP "\s-1NO_META\s0" 2
 .IX Item "NO_META"
 When true, suppresses the generation and addition to the \s-1MANIFEST\s0 of
-the \s-1META\s0.yml module meta-data file during 'make distdir'.
+the \s-1META\s0.yml and \s-1META\s0.json module meta-data files during 'make distdir'.
 .Sp
 Defaults to false.
 .IP "\s-1NO_MYMETA\s0" 2
 .IX Item "NO_MYMETA"
-When true, suppresses the generation of \s-1MYMETA\s0.yml module meta-data file
-during 'perl Makefile.PL'.
+When true, suppresses the generation of \s-1MYMETA\s0.yml and \s-1MYMETA\s0.json module
+meta-data files during 'perl Makefile.PL'.
 .Sp
 Defaults to false.
 .IP "\s-1NO_VC\s0" 2
@@ -1237,7 +1240,8 @@ A hash of modules that are needed to run your module.  The keys are
 the module names ie. Test::More, and the minimum version is the
 value. If the required version number is 0 any version will do.
 .Sp
-This will go into the \f(CW\*(C`requires\*(C'\fR field of your \fI\s-1META\s0.yml\fR.
+This will go into the \f(CW\*(C`requires\*(C'\fR field of your \s-1CPAN\s0 Meta file
+(\fI\s-1META\s0.yml\fR or \fI\s-1META\s0.json\fR).
 .Sp
 .Vb 3
 \&    PREREQ_PM => {
@@ -1604,8 +1608,8 @@ Copies all the files that are in the \s-1MANIFEST\s0 file to a newly created
 directory with the name \f(CW\*(C`$(DISTNAME)\-$(VERSION)\*(C'\fR. If that directory
 exists, it will be removed first.
 .Sp
-Additionally, it will create a \s-1META\s0.yml module meta-data file in the
-distdir and add this to the distdir's \s-1MANIFEST\s0.  You can shut this
+Additionally, it will create \s-1META\s0.yml and \s-1META\s0.json module meta-data file
+in the distdir and add this to the distdir's \s-1MANIFEST\s0.  You can shut this
 behavior off with the \s-1NO_META\s0 flag.
 .IP "make disttest" 4
 .IX Item "make disttest"
@@ -1672,25 +1676,37 @@ An example:
 \&        }
 \&    );
 .Ve
-.SS "Module Meta-Data"
-.IX Subsection "Module Meta-Data"
+.SS "Module Meta-Data (\s-1META\s0 and \s-1MYMETA\s0)"
+.IX Subsection "Module Meta-Data (META and MYMETA)"
 Long plaguing users of MakeMaker based modules has been the problem of
 getting basic information about the module out of the sources
 \&\fIwithout\fR running the \fIMakefile.PL\fR and doing a bunch of messy
-heuristics on the resulting \fIMakefile\fR.  To this end a simple module
-meta-data file has been introduced, \fI\s-1META\s0.yml\fR.
+heuristics on the resulting \fIMakefile\fR.  Over the years, it has become
+standard to keep this information in one or more \s-1CPAN\s0 Meta files
+distributed with each distribution.
 .PP
-\&\fI\s-1META\s0.yml\fR is a \s-1YAML\s0 document (see http://www.yaml.org) containing
-basic information about the module (name, version, prerequisites...)
-in an easy to read format.  The format is developed and defined by the
-Module::Build developers (see 
-http://module\-build.sourceforge.net/META\-spec.html)
+The original format of \s-1CPAN\s0 Meta files was \s-1YAML\s0 and the corresponding
+file was called \fI\s-1META\s0.yml\fR.  In 2010, version 2 of the CPAN::Meta::Spec
+was released, which mandates \s-1JSON\s0 format for the metadata in order to
+overcome certain compatibility issues between \s-1YAML\s0 serializers and to
+avoid breaking older clients unable to handle a new version of the spec.
+The CPAN::Meta library is now standard for accessing old and new-style
+Meta files.
 .PP
-MakeMaker will automatically generate a \fI\s-1META\s0.yml\fR file for you and
-add it to your \fI\s-1MANIFEST\s0\fR as part of the 'distdir' target (and thus
-the 'dist' target).  This is intended to seamlessly and rapidly
-populate \s-1CPAN\s0 with module meta-data.  If you wish to shut this feature
-off, set the \f(CW\*(C`NO_META\*(C'\fR \f(CW\*(C`WriteMakefile()\*(C'\fR flag to true.
+If CPAN::Meta is installed, MakeMaker will automatically generate
+\&\fI\s-1META\s0.json\fR and \fI\s-1META\s0.yml\fR files for you and add them to your \fI\s-1MANIFEST\s0\fR as
+part of the 'distdir' target (and thus the 'dist' target).  This is intended to
+seamlessly and rapidly populate \s-1CPAN\s0 with module meta-data.  If you wish to
+shut this feature off, set the \f(CW\*(C`NO_META\*(C'\fR \f(CW\*(C`WriteMakefile()\*(C'\fR flag to true.
+.PP
+At the 2008 \s-1QA\s0 Hackathon in Oslo, Perl module toolchain maintainers agrees
+to use the \s-1CPAN\s0 Meta format to communicate post-configuration requirements
+between toolchain components.  These files, \fI\s-1MYMETA\s0.json\fR and \fI\s-1MYMETA\s0.yml\fR,
+are generated when \fIMakefile.PL\fR generates a \fIMakefile\fR (if CPAN::Meta
+is installed).  Clients like \s-1CPAN\s0 or \s-1CPANPLUS\s0 will read this
+files to see what prerequisites must be fulfilled before building or testing
+the distribution.  If you with to shut this feature off, set the \f(CW\*(C`NO_MYMETA\*(C'\fR
+\&\f(CW\*(C`WriteMakeFile()\*(C'\fR flag to true.
 .SS "Disabling an extension"
 .IX Subsection "Disabling an extension"
 If some events detected in \fIMakefile.PL\fR imply that there is no way
@@ -1755,6 +1771,8 @@ not normally available.
 .PP
 ExtUtils::ModuleMaker and Module::Starter are both modules to
 help you setup your distribution.
+.PP
+CPAN::Meta and CPAN::Meta::Spec explain \s-1CPAN\s0 Meta files in detail.
 .SH "AUTHORS"
 .IX Header "AUTHORS"
 Andy Dougherty \f(CW\*(C`doughera@lafayette.edu\*(C'\fR, Andreas Ko\*:nig
@@ -1771,7 +1789,7 @@ generated Makefile along with your report.
 .PP
 For more up-to-date information, see <http://www.makemaker.org>.
 .PP
-Repository available at http://github.com/schwern/extutils\-makemaker <http://github.com/schwern/extutils-makemaker>.
+Repository available at https://github.com/Perl\-Toolchain\-Gang/ExtUtils\-MakeMaker <https://github.com/Perl-Toolchain-Gang/ExtUtils-MakeMaker>.
 .SH "LICENSE"
 .IX Header "LICENSE"
 This program is free software; you can redistribute it and/or 

@@ -123,8 +123,8 @@
 .rm #[ #] #H #V #F C
 .\" ========================================================================
 .\"
-.IX Title "CPAN::Meta::Spec 3"
-.TH CPAN::Meta::Spec 3 "2011-09-26" "perl v5.14.2" "Perl Programmers Reference Guide"
+.IX Title "inc::CPAN::Meta::Spec 3"
+.TH inc::CPAN::Meta::Spec 3 "2011-11-18" "perl v5.14.2" "User Contributed Perl Documentation"
 .\" For nroff, turn off justification.  Always turn off hyphenation; it makes
 .\" way too many mistakes in technical documents.
 .if n .ad l
@@ -133,7 +133,7 @@
 CPAN::Meta::Spec \- specification for CPAN distribution metadata
 .SH "VERSION"
 .IX Header "VERSION"
-version 2.110440
+version 2.112150
 .SH "SYNOPSIS"
 .IX Header "SYNOPSIS"
 .Vb 10
@@ -144,6 +144,7 @@ version 2.110440
 \&      . "building, testing, and installing Perl modules. "
 \&      . "It is meant to ... blah blah blah ...",
 \&    version  => \*(Aq0.36\*(Aq,
+\&    release_status => \*(Aqstable\*(Aq,
 \&    author   => [
 \&      \*(AqKen Williams <kwilliams@cpan.org>\*(Aq,
 \&      \*(AqModule\-Build List <module\-build@perl.org>\*(Aq, # additional contact
@@ -775,8 +776,9 @@ The keys of \f(CW\*(C`provides\*(C'\fR are package names that can be found withi
 the distribution.  The values are Maps with the following valid subkeys:
 .IP "file" 4
 .IX Item "file"
-This field is required.  The value must contain a relative file path
-from the root of the distribution to the module containing the package.
+This field is required.  The value must contain a Unix-style relative
+file path from the root of the distribution to the module containing the
+package.
 .IP "version" 4
 .IX Item "version"
 This field contains a \fIVersion\fR String for the package, if one exists.
@@ -791,12 +793,12 @@ Example:
 \&    license     => [ \*(Aqhttp://dev.perl.org/licenses/\*(Aq ],
 \&    homepage    => \*(Aqhttp://sourceforge.net/projects/module\-build\*(Aq,
 \&    bugtracker  => {
-\&      web    => \*(Aqhttp://github.com/dagolden/cpan\-meta\-spec/issues\*(Aq,
+\&      web    => \*(Aqhttp://rt.cpan.org/Public/Dist/Display.html?Name=CPAN\-Meta\*(Aq,
 \&      mailto => \*(Aqmeta\-bugs@example.com\*(Aq,
 \&    },
 \&    repository  => {
-\&      url  => \*(Aqgit://github.com/dagolden/cpan\-meta\-spec.git\*(Aq,
-\&      web  => \*(Aqhttp://github.com/dagolden/cpan\-meta\-spec\*(Aq,
+\&      url  => \*(Aqgit://github.com/dagolden/cpan\-meta.git\*(Aq,
+\&      web  => \*(Aqhttp://github.com/dagolden/cpan\-meta\*(Aq,
 \&      type => \*(Aqgit\*(Aq,
 \&    },
 \&    x_twitter   => \*(Aqhttp://twitter.com/cpan_linked/\*(Aq,
@@ -1127,10 +1129,10 @@ if both are found.
 .SS "Extracting Version Numbers from Perl Modules"
 .IX Subsection "Extracting Version Numbers from Perl Modules"
 To get the version number from a Perl module, consumers should use the
-\&\f(CW\*(C`MM\->parse_version($file)\*(C'\fR method provided by ExtUtils::MakeMaker or
-the Module::Build::ModuleInfo module provided with Module::Build.  For
-example, for the module given by \f(CW$mod\fR, the version may be retrieved in one
-of the following ways:
+\&\f(CW\*(C`MM\->parse_version($file)\*(C'\fR method provided by
+ExtUtils::MakeMaker or Module::Metadata.  For example, for the
+module given by \f(CW$mod\fR, the version may be retrieved in one of the
+following ways:
 .PP
 .Vb 3
 \&  # via ExtUtils::MakeMaker
@@ -1142,8 +1144,8 @@ The private \f(CW\*(C`_installed_file_for_module\*(C'\fR method may be replaced 
 other methods for locating a module in \f(CW@INC\fR.
 .PP
 .Vb 3
-\&  # via Module::Build
-\&  my $info = Module::Build::ModuleInfo\->new_from_module($mod);
+\&  # via Module::Metadata
+\&  my $info = Module::Metadata\->new_from_module($mod);
 \&  my $version = $info\->version;
 .Ve
 .PP
@@ -1151,7 +1153,7 @@ If only a filename is available, the following approach may be used:
 .PP
 .Vb 3
 \&  # via Module::Build
-\&  my $info = Module::Build::ModuleInfo\->new_from_file($file);
+\&  my $info = Module::Metadata\->new_from_file($file);
 \&  my $version = $info\->version;
 .Ve
 .SS "Comparing Version Numbers"
