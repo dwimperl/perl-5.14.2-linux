@@ -124,7 +124,7 @@
 .\" ========================================================================
 .\"
 .IX Title "App::Cpan 3"
-.TH App::Cpan 3 "2011-09-26" "perl v5.14.2" "Perl Programmers Reference Guide"
+.TH App::Cpan 3 "2011-04-18" "perl v5.14.2" "User Contributed Perl Documentation"
 .\" For nroff, turn off justification.  Always turn off hyphenation; it makes
 .\" way too many mistakes in technical documents.
 .if n .ad l
@@ -142,11 +142,11 @@ App::Cpan \- easily interact with CPAN from the command line
 \&
 \&        # use local::lib
 \&        cpan \-l module_name [ module_name ... ]
-\&        
+\&
 \&        # with just the dot, install from the distribution in the
 \&        # current directory
 \&        cpan .
-\&        
+\&
 \&        # without arguments, starts CPAN.pm shell
 \&        cpan
 \&
@@ -189,7 +189,7 @@ to install a module even if its tests fail. When you use this option,
 .Ve
 .IP "\-F" 4
 .IX Item "-F"
-Turn off \s-1CPAN\s0.pm's attempts to lock anything. You should be careful with 
+Turn off \s-1CPAN\s0.pm's attempts to lock anything. You should be careful with
 this since you might end up with multiple scripts trying to muck in the
 same directory. This isn't so much of a concern if you're loading a special
 config with \f(CW\*(C`\-j\*(C'\fR, and that config sets up its own work directories.
@@ -216,7 +216,7 @@ Install the specified modules.
 .IP "\-j Config.pm" 4
 .IX Item "-j Config.pm"
 Load the file that has the \s-1CPAN\s0 configuration data. This should have the
-same format as the standard \fICPAN/Config.pm\fR file, which defines 
+same format as the standard \fICPAN/Config.pm\fR file, which defines
 \&\f(CW$CPAN::Config\fR as an anonymous hash.
 .IP "\-J" 4
 .IX Item "-J"
@@ -278,14 +278,14 @@ Print the script version and \s-1CPAN\s0.pm version then exit.
 .IX Item "run()"
 Just do it.
 .Sp
-The \f(CW\*(C`run\*(C'\fR method returns 0 on success and a postive number on 
+The \f(CW\*(C`run\*(C'\fR method returns 0 on success and a postive number on
 failure. See the section on \s-1EXIT\s0 \s-1CODES\s0 for details on the values.
 .Sp
 \&\s-1CPAN\s0.pm sends all the good stuff either to \s-1STDOUT\s0. I have to intercept
 that output so I can find out what happened.
 .SH "EXIT VALUES"
 .IX Header "EXIT VALUES"
-The script exits with zero if it thinks that everything worked, or a 
+The script exits with zero if it thinks that everything worked, or a
 positive number if it thinks that something failed. Note, however, that
 in some cases it has to divine a failure by the output of things it does
 not control. For now, the exit codes are vague:

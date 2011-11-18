@@ -900,3 +900,25 @@ C<EXE_FILES: >
 
 =back
 
+=head2 Fri Nov 18 16:36:48 2011: C<Module> L<CPAN|CPAN>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.9800>
+
+=item *
+
+C<EXE_FILES: scripts/cpan>
+
+=back
+

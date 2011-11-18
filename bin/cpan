@@ -1,7 +1,7 @@
 #!/opt/perl5_14_2/bin/perl
-    eval 'exec /opt/perl5_14_2/bin/perl -S $0 ${1+"$@"}'
-	if $running_under_some_shell;
-#!/usr/local/bin/perl
+
+eval 'exec /opt/perl5_14_2/bin/perl  -S $0 ${1+"$@"}'
+    if 0; # not running under some shell
 use strict;
 use vars qw($VERSION);
 
