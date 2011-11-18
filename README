@@ -1,0 +1,26 @@
+
+Dwimperl distribution of Perl 5.14.2
+
+Download from http://dwimperl.com/
+
+After downloading unzip the file and put the new dirctory to be
+in /opt/perl5_14_2
+
+
+Change the ~/.bashrc file to have the last line:
+
+export PATH=/opt/perl5_14_2/bin:$PATH
+
+reload ~/.bashrc using
+
+$ source ~/.bashrc
+
+$ which perl
+
+should show you /opt/perl5_14_2/bin/perl
+
+$ perl /opt/perl5_14_2/selftest.t
+
+has a minimal set of tests.
+
+
