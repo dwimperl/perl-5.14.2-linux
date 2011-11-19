@@ -5,11 +5,20 @@ use Test::More;
 
 my @modules = qw(
 	CGI::Application
+	CGI::PSGI
 	CGI::Simple
+	DateTime
+	DBD::SQLite
 	Dancer
 	HTML::Template
-	YAML
 	JSON
+	Net::HTTP
+	Net::Server
+	Plack
+	Starman
+	Template
+	Test::WWW::Mechanize
+	YAML
 	XML::SAX
 	XML::RSS
 	XML::Feed

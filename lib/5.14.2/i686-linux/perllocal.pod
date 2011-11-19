@@ -3100,3 +3100,25 @@ C<EXE_FILES: >
 
 =back
 
+=head2 Sat Nov 19 18:29:51 2011: C<Module> L<CGI::PSGI|CGI::PSGI>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.15>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
