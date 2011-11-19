@@ -4,6 +4,7 @@ use warnings;
 use Test::More;
 
 my @modules = qw(
+	CGI::Application
 	CGI::Simple
 	Dancer
 	HTML::Template
