@@ -5,6 +5,7 @@ use Test::More;
 
 my @modules = qw(
 	Dancer
+	HTML::Template
 	YAML
 	JSON
 	XML::SAX
