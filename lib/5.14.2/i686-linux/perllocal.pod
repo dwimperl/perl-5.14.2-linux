@@ -3056,3 +3056,25 @@ C<EXE_FILES: >
 
 =back
 
+=head2 Sat Nov 19 18:21:48 2011: C<Module> L<IO::Stringy|IO::Stringy>
+
+=over 4
+
+=item *
+
+C<installed into: /opt/perl5_14_2/lib/site_perl/5.14.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.110>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
