@@ -12,6 +12,7 @@ my @modules = qw(
 	Dancer
 	HTML::Template
 	JSON
+	Module::Version
 	Net::HTTP
 	Net::Server
 	Plack
